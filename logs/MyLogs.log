@@ -1,0 +1,44 @@
+[INFO ] 13-09-2023 17:50:25.217 [main] LogUtil - =====================SELENIUM AUTOMATION TEST CASES========================
+
+[INFO ] 13-09-2023 17:50:28.967 [main] LogUtil - ******Open the Browser*****
+
+[INFO ] 13-09-2023 17:50:31.311 [main] LogUtil - ******###Products are displayed on the home page.###******
+
+[INFO ] 13-09-2023 17:50:31.696 [main] LogUtil - ******Verify Products asre Display on Home Page Successfully******
+
+[INFO ] 13-09-2023 17:50:31.920 [main] LogUtil - ******###Products Images are displayed on the home page.###******
+
+[INFO ] 13-09-2023 17:50:32.298 [main] LogUtil - ******Verify Product Image are displayed on Home Page Successfully******
+
+[INFO ] 13-09-2023 17:50:32.311 [main] LogUtil - ******###Products Price are displayed on the home page.###******
+
+[INFO ] 13-09-2023 17:50:32.760 [main] LogUtil - ******Verify Product Price are displayed on Home Page Successfully******
+
+[INFO ] 13-09-2023 17:50:32.775 [main] LogUtil - ******###Products addToCartButtons are displayed on the home page.###******
+
+[INFO ] 13-09-2023 17:50:33.199 [main] LogUtil - ******Verify Product AddToCart button are displayed on Home Page Successfully******
+
+[INFO ] 13-09-2023 17:50:33.541 [main] LogUtil - ******Verify Add To Cart Functionality Successfully******
+
+[INFO ] 13-09-2023 17:50:34.435 [main] LogUtil - ******Verify Product details in Mini Basket Successfully******
+
+[INFO ] 13-09-2023 17:50:34.863 [main] LogUtil - ******Verify Search Functionality on Home Page Successfully******
+
+[INFO ] 13-09-2023 17:50:36.160 [main] LogUtil - ******Verify Product Details In Check Out Page Successfully******
+
+[INFO ] 13-09-2023 17:50:37.491 [main] LogUtil - ******Verify Single Line Order functionality Successfully******
+
+[INFO ] 13-09-2023 17:50:39.224 [main] LogUtil - ******Verify Single Line Multi-Quantity order Successfully******
+
+[INFO ] 13-09-2023 17:50:40.375 [main] LogUtil - ******Verify Multi Line order Successfully******
+
+[INFO ] 13-09-2023 17:50:41.755 [main] LogUtil - ******Verify Multi Line Multi-Quantity order Successfully******
+
+[INFO ] 13-09-2023 17:50:43.156 [main] LogUtil - ******Verify User can Navigate to Term & Condition Page Successfully******
+
+[ERROR] 13-09-2023 17:50:44.713 [main] LogUtil - ******java.lang.AssertionError: expected [Please accept Terms & Conditions - Require] but found [Please accept Terms & Conditions - Required]******
+
+[ERROR] 13-09-2023 17:50:51.238 [main] LogUtil - ******java.lang.AssertionError: expected [Invalid code .!] but found [Invalid code ..!]******
+
+[INFO ] 13-09-2023 17:50:51.758 [main] LogUtil - ******Close the Browser*****
+

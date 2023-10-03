@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 2, Errors: 0, Skipped: 1, Time elapsed: 27.616 s <<< FAILURE! - in TestSuite
+VerifyOrderCannotBePlacedWithoutSelectingTermsAndConditions(GreenCart_Tests.Negative_ScenarioTests)  Time elapsed: 1.387 s  <<< FAILURE!
+java.lang.AssertionError: expected [Please accept Terms & Conditions - Require] but found [Please accept Terms & Conditions - Required]
+	at GreenCart_Tests.Negative_ScenarioTests.VerifyOrderCannotBePlacedWithoutSelectingTermsAndConditions(Negative_ScenarioTests.java:36)
+
+verifyPromoCodeIsValidOrNot(GreenCart_Tests.Negative_ScenarioTests)  Time elapsed: 6.374 s  <<< FAILURE!
+java.lang.AssertionError: expected [Invalid code .!] but found [Invalid code ..!]
+	at GreenCart_Tests.Negative_ScenarioTests.verifyPromoCodeIsValidOrNot(Negative_ScenarioTests.java:65)
+

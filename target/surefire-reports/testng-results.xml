@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="1" ignored="4" total="18" passed="11" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-13T17:50:29 IST" name="Selenium Project for a Website" finished-at="2023-09-13T17:50:51 IST" duration-ms="22073">
+    <groups>
+    </groups>
+    <test started-at="2023-09-13T17:50:29 IST" name="Test" finished-at="2023-09-13T17:50:51 IST" duration-ms="22073">
+      <class name="GreenCart_Tests.HomePageTest">
+        <test-method is-config="true" signature="initialization()[pri:0, instance:GreenCart_Tests.HomePageTest@7756c3cd]" started-at="2023-09-13T17:50:25 IST" name="initialization" finished-at="2023-09-13T17:50:29 IST" duration-ms="3961" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:GreenCart_Tests.HomePageTest@7756c3cd]" started-at="2023-09-13T17:50:29 IST" name="setUp" finished-at="2023-09-13T17:50:31 IST" duration-ms="1841" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="VerifyProductsAreDisplayedOnTheHomePage()[pri:0, instance:GreenCart_Tests.HomePageTest@7756c3cd]" started-at="2023-09-13T17:50:31 IST" name="VerifyProductsAreDisplayedOnTheHomePage" finished-at="2023-09-13T17:50:31 IST" duration-ms="450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyProductsAreDisplayedOnTheHomePage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:GreenCart_Tests.HomePageTest@7756c3cd]" started-at="2023-09-13T17:50:31 IST" name="setUp" finished-at="2023-09-13T17:50:31 IST" duration-ms="197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="VerifyProductImagePriceAndAddToCartButtonAreDisplayedForEachProduct()[pri:1, instance:GreenCart_Tests.HomePageTest@7756c3cd]" started-at="2023-09-13T17:50:31 IST" name="VerifyProductImagePriceAndAddToCartButtonAreDisplayedForEachProduct" finished-at="2023-09-13T17:50:33 IST" duration-ms="1300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyProductImagePriceAndAddToCartButtonAreDisplayedForEachProduct -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:GreenCart_Tests.HomePageTest@7756c3cd]" started-at="2023-09-13T17:50:33 IST" name="setUp" finished-at="2023-09-13T17:50:33 IST" duration-ms="173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="VerifyAddToCartFuntionality()[pri:2, instance:GreenCart_Tests.HomePageTest@7756c3cd]" started-at="2023-09-13T17:50:33 IST" name="VerifyAddToCartFuntionality" finished-at="2023-09-13T17:50:33 IST" duration-ms="168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAddToCartFuntionality -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:GreenCart_Tests.HomePageTest@7756c3cd]" started-at="2023-09-13T17:50:33 IST" name="setUp" finished-at="2023-09-13T17:50:33 IST" duration-ms="208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="VerifyProductDetailsInMiniBasket()[pri:3, instance:GreenCart_Tests.HomePageTest@7756c3cd]" started-at="2023-09-13T17:50:33 IST" name="VerifyProductDetailsInMiniBasket" finished-at="2023-09-13T17:50:34 IST" duration-ms="687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyProductDetailsInMiniBasket -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:GreenCart_Tests.HomePageTest@7756c3cd]" started-at="2023-09-13T17:50:34 IST" name="setUp" finished-at="2023-09-13T17:50:34 IST" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="VerifySearchFuntioanlityOnHomePage()[pri:4, instance:GreenCart_Tests.HomePageTest@7756c3cd]" started-at="2023-09-13T17:50:34 IST" name="VerifySearchFuntioanlityOnHomePage" finished-at="2023-09-13T17:50:34 IST" duration-ms="244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySearchFuntioanlityOnHomePage -->
+        <test-method is-config="true" signature="email()[pri:0, instance:GreenCart_Tests.HomePageTest@7756c3cd]" started-at="2023-09-13T17:50:51 IST" name="email" finished-at="2023-09-13T17:50:51 IST" duration-ms="162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- email -->
+      </class> <!-- GreenCart_Tests.HomePageTest -->
+      <class name="GreenCart_Tests.Negative_ScenarioTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:GreenCart_Tests.Negative_ScenarioTests@26425897]" started-at="2023-09-13T17:50:43 IST" name="setUp" finished-at="2023-09-13T17:50:43 IST" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="VerifyOrderCannotBePlacedWithoutSelectingTermsAndConditions()[pri:0, instance:GreenCart_Tests.Negative_ScenarioTests@26425897]" started-at="2023-09-13T17:50:43 IST" name="VerifyOrderCannotBePlacedWithoutSelectingTermsAndConditions" description="Verify order cannot be placed without selecting Tnc" finished-at="2023-09-13T17:50:44 IST" duration-ms="1382" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Please accept Terms & Conditions - Require] but found [Please accept Terms & Conditions - Required]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Please accept Terms & Conditions - Require] but found [Please accept Terms & Conditions - Required]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at GreenCart_Tests.Negative_ScenarioTests.VerifyOrderCannotBePlacedWithoutSelectingTermsAndConditions(Negative_ScenarioTests.java:36)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyOrderCannotBePlacedWithoutSelectingTermsAndConditions -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:GreenCart_Tests.Negative_ScenarioTests@26425897]" started-at="2023-09-13T17:50:44 IST" name="setUp" finished-at="2023-09-13T17:50:44 IST" duration-ms="82" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyPromoCodeIsValidOrNot()[pri:1, instance:GreenCart_Tests.Negative_ScenarioTests@26425897]" started-at="2023-09-13T17:50:44 IST" name="verifyPromoCodeIsValidOrNot" description="Verify Promocode is Invalid for this test" finished-at="2023-09-13T17:50:51 IST" duration-ms="6375" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Invalid code .!] but found [Invalid code ..!]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Invalid code .!] but found [Invalid code ..!]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at GreenCart_Tests.Negative_ScenarioTests.verifyPromoCodeIsValidOrNot(Negative_ScenarioTests.java:65)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPromoCodeIsValidOrNot -->
+      </class> <!-- GreenCart_Tests.Negative_ScenarioTests -->
+      <class name="GreenCart_Tests.CheckoutPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:GreenCart_Tests.CheckoutPageTest@565b064f]" started-at="2023-09-13T17:50:34 IST" name="setUp" finished-at="2023-09-13T17:50:35 IST" duration-ms="167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="VerifyProductDetailsInCheckoutPage()[pri:0, instance:GreenCart_Tests.CheckoutPageTest@565b064f]" started-at="2023-09-13T17:50:35 IST" name="VerifyProductDetailsInCheckoutPage" finished-at="2023-09-13T17:50:36 IST" duration-ms="1126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyProductDetailsInCheckoutPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:GreenCart_Tests.CheckoutPageTest@565b064f]" started-at="2023-09-13T17:50:36 IST" name="setUp" finished-at="2023-09-13T17:50:36 IST" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="VerifySingleLineOrder()[pri:1, instance:GreenCart_Tests.CheckoutPageTest@565b064f]" started-at="2023-09-13T17:50:36 IST" name="VerifySingleLineOrder" finished-at="2023-09-13T17:50:37 IST" duration-ms="1273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySingleLineOrder -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:GreenCart_Tests.CheckoutPageTest@565b064f]" started-at="2023-09-13T17:50:37 IST" name="setUp" finished-at="2023-09-13T17:50:37 IST" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method retried="true" signature="VerifySingleLineMultiQtyOrder()[pri:2, instance:GreenCart_Tests.CheckoutPageTest@565b064f]" started-at="2023-09-13T17:50:37 IST" name="VerifySingleLineMultiQtyOrder" finished-at="2023-09-13T17:50:37 IST" duration-ms="363" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [3 Nos.] but found [2 Nos.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [3 Nos.] but found [2 Nos.]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at GreenCart_Tests.CheckoutPageTest.VerifySingleLineMultiQtyOrder(CheckoutPageTest.java:118)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySingleLineMultiQtyOrder -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:GreenCart_Tests.CheckoutPageTest@565b064f]" started-at="2023-09-13T17:50:37 IST" name="setUp" finished-at="2023-09-13T17:50:38 IST" duration-ms="178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="VerifySingleLineMultiQtyOrder()[pri:2, instance:GreenCart_Tests.CheckoutPageTest@565b064f]" started-at="2023-09-13T17:50:38 IST" name="VerifySingleLineMultiQtyOrder" finished-at="2023-09-13T17:50:39 IST" duration-ms="1164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySingleLineMultiQtyOrder -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:GreenCart_Tests.CheckoutPageTest@565b064f]" started-at="2023-09-13T17:50:39 IST" name="setUp" finished-at="2023-09-13T17:50:39 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="VerifyMultiLIneOrder()[pri:3, instance:GreenCart_Tests.CheckoutPageTest@565b064f]" started-at="2023-09-13T17:50:39 IST" name="VerifyMultiLIneOrder" finished-at="2023-09-13T17:50:40 IST" duration-ms="1133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyMultiLIneOrder -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:GreenCart_Tests.CheckoutPageTest@565b064f]" started-at="2023-09-13T17:50:40 IST" name="setUp" finished-at="2023-09-13T17:50:40 IST" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="VerifyMultiLineMultiQtyOrder()[pri:4, instance:GreenCart_Tests.CheckoutPageTest@565b064f]" started-at="2023-09-13T17:50:40 IST" name="VerifyMultiLineMultiQtyOrder" finished-at="2023-09-13T17:50:41 IST" duration-ms="1349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyMultiLineMultiQtyOrder -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:GreenCart_Tests.CheckoutPageTest@565b064f]" started-at="2023-09-13T17:50:41 IST" name="setUp" finished-at="2023-09-13T17:50:41 IST" duration-ms="61" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="VerifyUserCanNavigateToTermsAndConditionsPage()[pri:5, instance:GreenCart_Tests.CheckoutPageTest@565b064f]" started-at="2023-09-13T17:50:41 IST" name="VerifyUserCanNavigateToTermsAndConditionsPage" finished-at="2023-09-13T17:50:43 IST" duration-ms="1340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUserCanNavigateToTermsAndConditionsPage -->
+      </class> <!-- GreenCart_Tests.CheckoutPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Selenium Project for a Website -->
+</testng-results>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Selenium Project for a Website]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="Utilities.ListnerImplementaion"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="GreenCart_Tests.Negative_ScenarioTests">
+        <methods>
+          <include name="email"/>
+          <include name="VerifyOrderCannotBePlacedWithoutSelectingTermsAndConditions"/>
+          <include name="setUp"/>
+          <include name="verifyPromoCodeIsValidOrNot"/>
+          <include name="initialization"/>
+        </methods>
+      </class> <!-- GreenCart_Tests.Negative_ScenarioTests -->
+      <class name="GreenCart_Tests.CheckoutPageTest">
+        <methods>
+          <include name="email"/>
+          <include name="setUp"/>
+          <include name="VerifySingleLineMultiQtyOrder"/>
+          <include name="initialization"/>
+        </methods>
+      </class> <!-- GreenCart_Tests.CheckoutPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Selenium Project for a Website] -->

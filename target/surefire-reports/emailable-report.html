@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Selenium Project for a Website</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">11</td><td class="num">0</td><td class="num attn">1</td><td class="num attn">2</td><td class="num">22,073</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Selenium Project for a Website</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">GreenCart_Tests.Negative_ScenarioTests</td><td><a href="#m0">VerifyOrderCannotBePlacedWithoutSelectingTermsAndConditions</a></td><td rowspan="1">1694607643200</td><td rowspan="1">1382</td></tr><tr class="failedeven"><td><a href="#m1">verifyPromoCodeIsValidOrNot</a></td><td rowspan="1">1694607644796</td><td rowspan="1">6375</td></tr><tr><th colspan="4">Test &#8212; retried</th></tr><tr class="retriedeven"><td rowspan="1">GreenCart_Tests.CheckoutPageTest</td><td><a href="#m2">VerifySingleLineMultiQtyOrder</a></td><td rowspan="1">1694607637519</td><td rowspan="1">363</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="6">GreenCart_Tests.CheckoutPageTest</td><td><a href="#m3">VerifyMultiLIneOrder</a></td><td rowspan="1">1694607639243</td><td rowspan="1">1133</td></tr><tr class="passedeven"><td><a href="#m4">VerifyMultiLineMultiQtyOrder</a></td><td rowspan="1">1694607640406</td><td rowspan="1">1349</td></tr><tr class="passedeven"><td><a href="#m5">VerifyProductDetailsInCheckoutPage</a></td><td rowspan="1">1694607635034</td><td rowspan="1">1126</td></tr><tr class="passedeven"><td><a href="#m6">VerifySingleLineMultiQtyOrder</a></td><td rowspan="1">1694607638060</td><td rowspan="1">1164</td></tr><tr class="passedeven"><td><a href="#m7">VerifySingleLineOrder</a></td><td rowspan="1">1694607636219</td><td rowspan="1">1273</td></tr><tr class="passedeven"><td><a href="#m8">VerifyUserCanNavigateToTermsAndConditionsPage</a></td><td rowspan="1">1694607641817</td><td rowspan="1">1340</td></tr><tr class="passedodd"><td rowspan="5">GreenCart_Tests.HomePageTest</td><td><a href="#m9">VerifyAddToCartFuntionality</a></td><td rowspan="1">1694607633373</td><td rowspan="1">168</td></tr><tr class="passedodd"><td><a href="#m10">VerifyProductDetailsInMiniBasket</a></td><td rowspan="1">1694607633750</td><td rowspan="1">687</td></tr><tr class="passedodd"><td><a href="#m11">VerifyProductImagePriceAndAddToCartButtonAreDisplayedForEachProduct</a></td><td rowspan="1">1694607631899</td><td rowspan="1">1300</td></tr><tr class="passedodd"><td><a href="#m12">VerifyProductsAreDisplayedOnTheHomePage</a></td><td rowspan="1">1694607631246</td><td rowspan="1">450</td></tr><tr class="passedodd"><td><a href="#m13">VerifySearchFuntioanlityOnHomePage</a></td><td rowspan="1">1694607634619</td><td rowspan="1">244</td></tr></tbody>
+</table>
+<h2>Test</h2><h3 id="m0">GreenCart_Tests.Negative_ScenarioTests#VerifyOrderCannotBePlacedWithoutSelectingTermsAndConditions</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [Please accept Terms &amp; Conditions - Require] but found [Please accept Terms &amp; Conditions - Required]
+	at GreenCart_Tests.Negative_ScenarioTests.VerifyOrderCannotBePlacedWithoutSelectingTermsAndConditions(Negative_ScenarioTests.java:36)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">GreenCart_Tests.Negative_ScenarioTests#verifyPromoCodeIsValidOrNot</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [Invalid code .!] but found [Invalid code ..!]
+	at GreenCart_Tests.Negative_ScenarioTests.verifyPromoCodeIsValidOrNot(Negative_ScenarioTests.java:65)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">GreenCart_Tests.CheckoutPageTest#VerifySingleLineMultiQtyOrder</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [3 Nos.] but found [2 Nos.]
+	at GreenCart_Tests.CheckoutPageTest.VerifySingleLineMultiQtyOrder(CheckoutPageTest.java:118)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">GreenCart_Tests.CheckoutPageTest#VerifyMultiLIneOrder</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">GreenCart_Tests.CheckoutPageTest#VerifyMultiLineMultiQtyOrder</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">GreenCart_Tests.CheckoutPageTest#VerifyProductDetailsInCheckoutPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">GreenCart_Tests.CheckoutPageTest#VerifySingleLineMultiQtyOrder</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">GreenCart_Tests.CheckoutPageTest#VerifySingleLineOrder</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">GreenCart_Tests.CheckoutPageTest#VerifyUserCanNavigateToTermsAndConditionsPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">GreenCart_Tests.HomePageTest#VerifyAddToCartFuntionality</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">GreenCart_Tests.HomePageTest#VerifyProductDetailsInMiniBasket</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">GreenCart_Tests.HomePageTest#VerifyProductImagePriceAndAddToCartButtonAreDisplayedForEachProduct</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">GreenCart_Tests.HomePageTest#VerifyProductsAreDisplayedOnTheHomePage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">GreenCart_Tests.HomePageTest#VerifySearchFuntioanlityOnHomePage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
