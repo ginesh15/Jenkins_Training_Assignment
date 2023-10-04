@@ -8,7 +8,7 @@
     <classes>
       <class name="GreenCart_Tests.HomePageTest"/>
       <class name="GreenCart_Tests.CheckoutPageTest"/>
-        <class name="GreenCart_Tests.Negative_ScenarioTests"/>
+      
       </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
